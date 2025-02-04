@@ -1,0 +1,47 @@
+# ⚡ Archivos y directorios de dependencias
+node_modules/
+dist/
+public/
+assets/
+
+# ⚡ Archivos de configuración de Docker
+.dockerignore
+Dockerfile
+
+# ⚡ Archivos de entorno (para evitar subir credenciales o configuraciones locales)
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# ⚡ Archivos de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ⚡ Configuración de editores y herramientas de desarrollo
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ⚡ Archivos de configuración de Vue y herramientas relacionadas
+.cache/
+.eslintcache/
+babel.config.js
+jsconfig.json
+
+# ⚡ Archivos de lock (mantén solo `package.json`, pero ignora los lock si no los quieres versionar)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ⚡ Otros archivos generados por Vue CLI o herramientas
+output/
+coverage/
